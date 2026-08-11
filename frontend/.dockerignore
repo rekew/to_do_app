@@ -1,0 +1,12 @@
+.git
+.gitignore
+.elmish-land
+node_modules
+obj
+bin
+dist
+**/*.fs.js
+.vscode
+Dockerfile
+docker-compose*.yml
+.dockerignore
