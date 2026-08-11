@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build output
+obj/
+bin/
+dist/
+
+# Fable / elmish-land generated code
+*.fs.js
+.fable/
+.elmish-land/
