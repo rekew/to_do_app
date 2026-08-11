@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/.elmish-land/" />
+  <Folder Name="/.elmish-land/App/">
+    <Project Path=".elmish-land/App/ElmishLand.frontend.App.fsproj" />
+  </Folder>
+  <Folder Name="/.elmish-land/Base/">
+    <Project Path=".elmish-land/Base/ElmishLand.frontend.Base.fsproj" />
+  </Folder>
+  <Project Path="frontend.fsproj" />
+</Solution>

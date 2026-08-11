@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/rekewka/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/rekewka/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">7.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/rekewka/.nuget/packages/" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)fable.core/5.2.0/contentFiles/any/netstandard2.0/CHANGELOG.md" Condition="Exists('$(NuGetPackageRoot)fable.core/5.2.0/contentFiles/any/netstandard2.0/CHANGELOG.md')">
+      <NuGetPackageId>Fable.Core</NuGetPackageId>
+      <NuGetPackageVersion>5.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>CHANGELOG.md</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/rekewka/.nuget/packages/fsharp.core/10.1.302</PkgFSharp_Core>
+    <PkgFable_Core Condition=" '$(PkgFable_Core)' == '' ">/Users/rekewka/.nuget/packages/fable.core/5.2.0</PkgFable_Core>
+    <PkgFeliz Condition=" '$(PkgFeliz)' == '' ">/Users/rekewka/.nuget/packages/feliz/3.3.3</PkgFeliz>
+    <PkgFable_Promise Condition=" '$(PkgFable_Promise)' == '' ">/Users/rekewka/.nuget/packages/fable.promise/3.2.0</PkgFable_Promise>
+    <PkgFable_Elmish Condition=" '$(PkgFable_Elmish)' == '' ">/Users/rekewka/.nuget/packages/fable.elmish/5.0.2</PkgFable_Elmish>
+    <PkgFable_Elmish_React Condition=" '$(PkgFable_Elmish_React)' == '' ">/Users/rekewka/.nuget/packages/fable.elmish.react/5.6.0</PkgFable_Elmish_React>
+    <PkgFable_Elmish_HMR Condition=" '$(PkgFable_Elmish_HMR)' == '' ">/Users/rekewka/.nuget/packages/fable.elmish.hmr/9.0.0</PkgFable_Elmish_HMR>
+  </PropertyGroup>
+</Project>
