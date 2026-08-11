@@ -7,6 +7,9 @@
 
     <ItemGroup>
         <Compile Include="src/Shared.fs"/>
+        <Compile Include="src/Domain.fs"/>
+        <Compile Include="src/TodoState.fs"/>
+        <Compile Include="src/TodoView.fs"/>
         <Compile Include="src/Pages/NotFound.fs"/>
         <Compile Include="src/Pages/Layout.fs"/>
         <Compile Include="src/Pages/Page.fs"/>
